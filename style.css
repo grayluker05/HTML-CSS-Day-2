@@ -1,0 +1,126 @@
+body{
+    min-height: 200vh;
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px, 10px;
+    box-sizing: border-box;
+}
+
+section{
+    color: white;
+}
+
+ol {
+    width: 40vw;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+ul{
+    width: 40vw;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    color: gray;
+}
+
+.spaceX-descrip{
+    font-size: 18px;
+    text-align: center;
+    padding: 30px;
+}
+
+img{
+    width: 100%;
+}
+
+.rocket-pic{
+    width: 100%;
+}
+
+.home-pic{
+    width: 100%;
+    background-color: black;
+}
+
+.potato {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    color: white;
+    font-size: 12px;
+    border: solid 1px lightgray;
+}
+
+.contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+.title {
+    color: black;
+}
+
+.learn-mr {
+    color:blue;
+}
+
+.reUse{
+    width: 300px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.commercial-cr3w{
+    width: 300px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.life-planet{
+    width: 300px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.picture{
+    height: 116px;
+    width: 256px;
+}
+
+.opac {
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.521);
+
+}
+
+button{
+    color: black;
+    
+}
